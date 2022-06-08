@@ -10,7 +10,7 @@ function Add() {
 
 
   useEffect(()=>{
-    axios.get(`http://www.omdbapi.com/?s=${searchValue}&apikey=148f7e34`)
+    axios.get(`https://www.omdbapi.com/?s=${searchValue}&apikey=148f7e34`)
     .then(response =>{
      if (response.data.Search){
       setMovies(response.data.Search)
