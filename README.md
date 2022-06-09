@@ -3,5 +3,5 @@
 
 Coded by - [kareem shimes]
 
-![](/movieApp.PNG)
+![](/MovieApp.png)
 I created React Movie App and Fetch Movie API
